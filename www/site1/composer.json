@@ -1,0 +1,21 @@
+{
+	"require": {
+		"simplon/mysql": "*",
+		"predis/predis": "^1.1",
+		"noahbuscher/macaw": "dev-master"
+
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	},
+	"autoload": {
+		"classmap": [
+			"app/controller",
+			"app/model"
+		]
+	}
+
+}
